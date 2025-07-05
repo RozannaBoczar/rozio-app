@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.static(path.join(__dirname, 'dist/rozio-app')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/rozio-app/src/index.html'));
+  res.sendFile(path.join(__dirname, 'dist/rozio-app/index.html'));
 });
 
 app.listen(PORT, () => {
