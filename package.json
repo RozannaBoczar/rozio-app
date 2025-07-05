@@ -7,7 +7,6 @@
     "build": "ng build --prod",
     "heroku-postbuild": "ng build --prod",
     "watch": "ng build --watch --configuration development",
-    "postinstall": "npm run build",
     "test": "ng test"
   },
   "private": true,
